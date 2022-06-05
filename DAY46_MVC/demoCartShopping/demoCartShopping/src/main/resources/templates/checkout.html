@@ -1,0 +1,13 @@
+<html>
+<body>
+
+<form method="get" action="/checkout">
+
+<input type="submit" value="checkout">
+
+<p th:text="'cart : '+${session.cart}" />
+<p th:text="'Total : '+${session.total}" />
+
+</form>
+</body>
+</html>
